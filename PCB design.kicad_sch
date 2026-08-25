@@ -323,6 +323,324 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TFM-105-02-L-D-WT:TFM-105-02-L-D-WT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 19.05 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "TFM-105-02-L-D-WT"
+				(at 19.05 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "TFM-105-02-XXX-D-WT"
+				(at 19.05 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "http://suddendocs.samtec.com/prints/tfm-1xx-xx-xxx-d-xxx-mkt.pdf"
+				(at 19.05 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Samtec, Tiger Eye TFM, 10 Way, 2 Row, Straight PCB Header"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" ""
+				(at 19.05 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "200-TFM10502LDWT"
+				(at 19.05 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/TFM-105-02-L-D-WT?qs=%252BZP6%2F%252BtExtCm4LrJ3kapEQ%3D%3D"
+				(at 19.05 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "SAMTEC"
+				(at 19.05 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TFM-105-02-L-D-WT"
+				(at 19.05 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "TFM-105-02-L-D-WT_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -5.08 180)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -7.62 180)
+					(length 5.08)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -10.16 180)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+12V"
 			(power global)
 			(pin_numbers
@@ -578,37 +896,91 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 232.41 78.74)
+		(end 284.48 118.11)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "0b0b7c08-0616-4016-8814-5f93974fc7f6")
+	)
+	(rectangle
+		(start 12.7 74.93)
+		(end 64.77 114.3)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "123378ad-0b43-40ea-9fe5-788a25915c32")
+	)
+	(text ""
+		(exclude_from_sim no)
+		(at 262.128 81.534 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "3b3cec32-1516-418c-9d09-cf8c9791c95d")
+	)
+	(text "Female connector"
+		(exclude_from_sim no)
+		(at 261.366 81.28 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "c58b2545-3bdf-45ca-97d0-255215178c36")
+	)
+	(text "Male connector"
+		(exclude_from_sim no)
+		(at 35.814 78.486 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "f6ed407a-2e6f-4d3b-a9ab-1906e09784bb")
+	)
 	(no_connect
-		(at 255.27 34.29)
+		(at 252.73 100.33)
 		(uuid "1a9ccb1f-84fe-49db-a030-cf65b04aa45b")
 	)
 	(no_connect
-		(at 278.13 34.29)
+		(at 275.59 100.33)
 		(uuid "33afac8c-97b4-46e1-8ae9-436c8a7a5d4a")
 	)
 	(no_connect
-		(at 278.13 31.75)
+		(at 275.59 97.79)
 		(uuid "38d49e51-e6e5-45aa-ac50-e8f3d97a14a8")
 	)
 	(no_connect
-		(at 255.27 29.21)
+		(at 252.73 95.25)
 		(uuid "52794302-05a2-45e0-809e-5b7d4cf52dec")
 	)
 	(no_connect
-		(at 255.27 36.83)
+		(at 252.73 102.87)
 		(uuid "6e98533a-cb4a-4372-b155-5256a19ed1f9")
 	)
 	(no_connect
-		(at 278.13 36.83)
+		(at 275.59 102.87)
 		(uuid "c515a92c-556f-4f7b-9cd0-e0e9ea8febaf")
 	)
 	(no_connect
-		(at 278.13 29.21)
+		(at 275.59 95.25)
 		(uuid "df1e9857-f6b5-4459-920d-64e569821c7e")
 	)
 	(wire
 		(pts
-			(xy 252.73 31.75) (xy 255.27 31.75)
+			(xy 250.19 97.79) (xy 252.73 97.79)
 		)
 		(stroke
 			(width 0)
@@ -618,7 +990,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 39.37) (xy 280.67 39.37)
+			(xy 275.59 105.41) (xy 278.13 105.41)
 		)
 		(stroke
 			(width 0)
@@ -628,7 +1000,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 39.37) (xy 255.27 39.37)
+			(xy 248.92 105.41) (xy 252.73 105.41)
 		)
 		(stroke
 			(width 0)
@@ -638,7 +1010,7 @@
 	)
 	(global_label "I{slash}O"
 		(shape input)
-		(at 252.73 31.75 180)
+		(at 250.19 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -648,7 +1020,7 @@
 		)
 		(uuid "3d7ac937-86ba-4dca-a3dd-62fc45bb124a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.479 31.75 0)
+			(at 243.939 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -662,7 +1034,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 280.67 39.37 180)
+		(at 278.13 105.41 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -673,7 +1045,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a1ac780-3bfe-4455-b043-c924852849d7")
 		(property "Reference" "#PWR02"
-			(at 280.67 35.56 0)
+			(at 278.13 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -684,7 +1056,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 280.67 44.45 0)
+			(at 278.13 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -694,7 +1066,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 280.67 39.37 0)
+			(at 278.13 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -705,7 +1077,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.67 39.37 0)
+			(at 278.13 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -716,7 +1088,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 280.67 39.37 0)
+			(at 278.13 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -740,7 +1112,7 @@
 	)
 	(symbol
 		(lib_id "SFM-105-02-L-D-A-K-TR:SFM-105-02-L-D-A-K-TR")
-		(at 255.27 29.21 0)
+		(at 252.73 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -751,7 +1123,7 @@
 		(fields_autoplaced yes)
 		(uuid "6bd4a6a6-ef59-41fc-bb76-e612e8250b04")
 		(property "Reference" "Female_Connector"
-			(at 266.7 21.59 0)
+			(at 264.16 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -761,7 +1133,7 @@
 			)
 		)
 		(property "Value" "SFM-105-02-L-D-A-K-TR"
-			(at 266.7 24.13 0)
+			(at 264.16 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -771,7 +1143,7 @@
 			)
 		)
 		(property "Footprint" "SFM-105-YY-XXX-D-A-K-TR"
-			(at 274.32 124.13 0)
+			(at 271.78 190.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -783,7 +1155,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.samtec.com/partnumber/SFM-105-02-L-D-A-K-TR"
-			(at 274.32 224.13 0)
+			(at 271.78 290.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -795,7 +1167,7 @@
 			)
 		)
 		(property "Description" "High-Reliability Tiger Eye Socket Strips, .050\" Pitch"
-			(at 255.27 29.21 0)
+			(at 252.73 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -806,7 +1178,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 274.32 424.13 0)
+			(at 271.78 490.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -818,7 +1190,7 @@
 			)
 		)
 		(property "Mouser Part Number" "200-SFM10502LDAKTR"
-			(at 274.32 524.13 0)
+			(at 271.78 590.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -830,7 +1202,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/SFM-105-02-L-D-A-K-TR?qs=fnpEE5GccuP0umTxzlPSUQ%3D%3D"
-			(at 274.32 624.13 0)
+			(at 271.78 690.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -842,7 +1214,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "SAMTEC"
-			(at 274.32 724.13 0)
+			(at 271.78 790.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -854,7 +1226,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SFM-105-02-L-D-A-K-TR"
-			(at 274.32 824.13 0)
+			(at 271.78 890.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -905,8 +1277,174 @@
 		)
 	)
 	(symbol
+		(lib_id "TFM-105-02-L-D-WT:TFM-105-02-L-D-WT")
+		(at 21.59 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3eae5b8-dd6d-4bad-9eb4-f8cebcec8bf5")
+		(property "Reference" "Male_Connector"
+			(at 33.02 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TFM-105-02-L-D-WT"
+			(at 33.02 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TFM-105-02-XXX-D-WT"
+			(at 40.64 186.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://suddendocs.samtec.com/prints/tfm-1xx-xx-xxx-d-xxx-mkt.pdf"
+			(at 40.64 286.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Samtec, Tiger Eye TFM, 10 Way, 2 Row, Straight PCB Header"
+			(at 21.59 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 40.64 486.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "200-TFM10502LDWT"
+			(at 40.64 586.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/TFM-105-02-L-D-WT?qs=%252BZP6%2F%252BtExtCm4LrJ3kapEQ%3D%3D"
+			(at 40.64 686.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "SAMTEC"
+			(at 40.64 786.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TFM-105-02-L-D-WT"
+			(at 40.64 886.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "6"
+			(uuid "a32470de-d9f9-4607-b63c-7f48ccabc3a5")
+		)
+		(pin "3"
+			(uuid "c280c090-39b9-45fa-b0b9-67f75944b31f")
+		)
+		(pin "4"
+			(uuid "d3a95c6a-7b9b-4985-88ed-c0f5f2d3db51")
+		)
+		(pin "2"
+			(uuid "649bd3d8-bd07-4948-9079-29a08b439753")
+		)
+		(pin "5"
+			(uuid "31862db1-d727-4d39-a7d4-8196246b922a")
+		)
+		(pin "1"
+			(uuid "b6069269-84b7-47c6-b12c-40a53790fd84")
+		)
+		(pin "9"
+			(uuid "434867f6-8cba-4c96-9401-baf6536e805e")
+		)
+		(pin "10"
+			(uuid "44a8406c-175d-4e7a-8f85-266224892935")
+		)
+		(pin "7"
+			(uuid "34fe2d6b-f59c-46bb-bf96-76cf82101407")
+		)
+		(pin "8"
+			(uuid "af43e69b-2d40-456f-b513-6486a06d8331")
+		)
+		(instances
+			(project "PCB design"
+				(path "/1ee13f0d-22f2-4352-9e68-759581f4b836"
+					(reference "Male_Connector")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 251.46 39.37 0)
+		(at 248.92 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -917,7 +1455,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa6ed4b5-8386-480d-a281-3d95ccc109d9")
 		(property "Reference" "#PWR01"
-			(at 251.46 45.72 0)
+			(at 248.92 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -928,7 +1466,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 251.46 44.45 0)
+			(at 248.92 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -938,7 +1476,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 39.37 0)
+			(at 248.92 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -949,7 +1487,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 39.37 0)
+			(at 248.92 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -960,7 +1498,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 39.37 0)
+			(at 248.92 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
