@@ -1398,6 +1398,28 @@
 		)
 		(uuid "123378ad-0b43-40ea-9fe5-788a25915c32")
 	)
+	(rectangle
+		(start 127 74.93)
+		(end 189.23 111.76)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "1dbc0791-4998-4936-855a-962e7591c7d6")
+	)
+	(text "Fixed PWR regulator\n"
+		(exclude_from_sim no)
+		(at 155.956 77.978 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "3a63a2e9-5013-4bb9-9d4d-2d987eb9b71c")
+	)
 	(text ""
 		(exclude_from_sim no)
 		(at 257.048 77.724 0)
@@ -2748,10 +2770,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e36f5fa0-eccc-4ae8-8ede-0d12d92cedad")
 		(property "Reference" "D3"
-			(at 150.1775 82.55 0)
+			(at 148.082 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2761,7 +2782,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 150.1775 85.09 0)
+			(at 148.59 85.598 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
