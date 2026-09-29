@@ -2123,6 +2123,12 @@
 		(uuid "1f6c02f3-4d92-444d-a4d9-a21e6318b484")
 	)
 	(junction
+		(at 165.1 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21f85eaf-033c-44b4-bfca-ce110f6ca017")
+	)
+	(junction
 		(at 123.19 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2440,6 +2446,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 115.57) (xy 168.91 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ef2c9d7-267d-4769-9d78-98be2d7ab2f5")
+	)
+	(wire
+		(pts
 			(xy 162.56 96.52) (xy 168.91 96.52)
 		)
 		(stroke
@@ -2640,7 +2656,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 115.57) (xy 168.91 115.57)
+			(xy 162.56 115.57) (xy 165.1 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4975,6 +4991,84 @@
 			(project "PCB design"
 				(path "/1ee13f0d-22f2-4352-9e68-759581f4b836"
 					(reference "Switching_Regulator")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7dc5db0-489e-4747-8949-1b04caf6afe9")
+		(property "Reference" "#PWR05"
+			(at 165.1 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4da0bc39-8165-49aa-b3b1-da29d4c7cd7e")
+		)
+		(instances
+			(project "PCB design"
+				(path "/1ee13f0d-22f2-4352-9e68-759581f4b836"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
