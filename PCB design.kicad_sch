@@ -3177,7 +3177,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29a0a15d-3ec5-46e6-81d1-b57873558b41")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 145.796 126.746 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3187,7 +3187,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "40V/5A SK54BL"
 			(at 146.05 128.778 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3239,7 +3239,7 @@
 		(instances
 			(project "PCB design"
 				(path "/1ee13f0d-22f2-4352-9e68-759581f4b836"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
