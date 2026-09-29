@@ -487,6 +487,194 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:D_Schottky"
 			(pin_numbers
 				(hide yes)
@@ -1935,6 +2123,12 @@
 		(uuid "1f6c02f3-4d92-444d-a4d9-a21e6318b484")
 	)
 	(junction
+		(at 123.19 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "386c48e6-e820-44e9-a4b2-242bedf1e427")
+	)
+	(junction
 		(at 158.75 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1981,12 +2175,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b75d625e-cefb-48e6-be3f-0e53c5e2cc58")
-	)
-	(junction
-		(at 123.19 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf34a277-5b61-4459-b0cb-4349d3854eb0")
 	)
 	(junction
 		(at 162.56 115.57)
@@ -2122,7 +2310,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 74.93) (xy 123.19 74.93)
+			(xy 105.41 74.93) (xy 109.22 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2279,6 +2467,16 @@
 			(type default)
 		)
 		(uuid "6b8045d6-ced8-473d-aa1f-41f17dcc90bc")
+	)
+	(wire
+		(pts
+			(xy 116.84 74.93) (xy 123.19 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f3f95bd-56fd-4d50-96bf-64989b6a769b")
 	)
 	(wire
 		(pts
@@ -2708,7 +2906,7 @@
 	)
 	(global_label "PDU"
 		(shape input)
-		(at 115.57 74.93 180)
+		(at 105.41 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2718,7 +2916,7 @@
 		)
 		(uuid "dfd24390-4f47-4735-956a-a32df58ccc54")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.7143 74.93 0)
+			(at 98.5543 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4014,6 +4212,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 113.03 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cb357b0-297e-4c54-aa68-a511d7dcb3e8")
+		(property "Reference" "D1"
+			(at 113.03 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.7V"
+			(at 113.03 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 113.03 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 113.03 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 113.03 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a88df836-8aa5-477b-8769-ccd6d728f631")
+		)
+		(pin "1"
+			(uuid "547ed536-c0ba-47db-8080-a1f150504291")
+		)
+		(instances
+			(project "PCB design"
+				(path "/1ee13f0d-22f2-4352-9e68-759581f4b836"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 191.77 86.36 0)
 		(unit 1)
@@ -4505,7 +4805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2abca7d-5ea0-41ce-adc7-85151408034a")
-		(property "Reference" "IC1"
+		(property "Reference" "Switching_Regulator"
 			(at 140.97 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4674,7 +4974,7 @@
 		(instances
 			(project "PCB design"
 				(path "/1ee13f0d-22f2-4352-9e68-759581f4b836"
-					(reference "IC1")
+					(reference "Switching_Regulator")
 					(unit 1)
 				)
 			)
