@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SK54BLF_R1_00001
+D Schottky Diodes & Rectifiers 40V SchottkyF 5A
+K
+F https://www.panjit.com.tw/upload/datasheet/SK54BLF.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -889,172 +889,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Schottky"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Schottky"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Schottky diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D_Schottky_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2332,6 +2166,268 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SK54BLF_R1_00001:SK54BLF_R1_00001"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 12.7 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SK54BLF_R1_00001"
+				(at 12.7 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SODFL5336X110N"
+				(at 12.7 -93.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/SK54BLF.pdf"
+				(at 12.7 -193.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Schottky Diodes & Rectifiers 40V SchottkyF 5A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "1.1"
+				(at 12.7 -393.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "241-SK54BLF_R1_00001"
+				(at 12.7 -493.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panjit/SK54BLF_R1_00001?qs=sPbYRqrBIVk6ny5Uu6rUPg%3D%3D"
+				(at 12.7 -593.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "PANJIT"
+				(at 12.7 -693.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SK54BLF_R1_00001"
+				(at 12.7 -793.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "SK54BLF_R1_00001_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.604 -1.524) (xy 6.604 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 8.636 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 12.7 2.54) (xy 12.7 -2.54) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 6.604 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.636 1.524) (xy 8.636 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 0) (xy 15.24 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TFM-105-02-L-D-WT:TFM-105-02-L-D-WT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2984,12 +3080,6 @@
 		(uuid "2ff8fad3-f811-4dcc-a74c-99bc61fab0b9")
 	)
 	(junction
-		(at 139.7 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6627b75a-a54e-4d7f-94b6-ab7a2a79f843")
-	)
-	(junction
 		(at 152.4 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3002,13 +3092,13 @@
 		(uuid "75ffd7eb-1aa2-4149-bccc-84cee9dd4c69")
 	)
 	(junction
-		(at 139.7 121.92)
+		(at 139.7 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e5a3b6b-68f4-4cc1-b946-bfa2a7168850")
 	)
 	(junction
-		(at 119.38 121.92)
+		(at 119.38 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "822f2c0f-e1f9-4988-915e-5bf7d1cb3cef")
@@ -3054,6 +3144,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f90f8ee4-dc5d-4e60-a649-87e7e25a50aa")
+	)
+	(junction
+		(at 139.7 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9f5fd5b-e576-4f6a-8484-135f1a218c96")
 	)
 	(no_connect
 		(at 52.07 92.71)
@@ -3227,7 +3323,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 121.92) (xy 166.37 121.92)
+			(xy 139.7 133.35) (xy 166.37 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3237,7 +3333,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 121.92) (xy 210.82 77.47)
+			(xy 210.82 133.35) (xy 210.82 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3297,6 +3393,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 81.28) (xy 92.71 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48b7bdcb-c8b0-4c12-a11f-3e6cb026d07d")
+	)
+	(wire
+		(pts
 			(xy 180.34 83.82) (xy 180.34 88.9)
 		)
 		(stroke
@@ -3327,6 +3433,36 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 69.85) (xy 116.84 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d4a8395-7c60-446c-a6a4-7ea8be1149b5")
+	)
+	(wire
+		(pts
+			(xy 139.7 113.03) (xy 152.4 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ec9972b-6352-415d-b7bd-219c0175bcd2")
+	)
+	(wire
+		(pts
+			(xy 139.7 130.81) (xy 139.7 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5116bf1b-9a04-488b-a0e7-856d0b6a7d2a")
+	)
+	(wire
+		(pts
 			(xy 185.42 76.2) (xy 185.42 86.36)
 		)
 		(stroke
@@ -3337,7 +3473,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 121.92) (xy 210.82 121.92)
+			(xy 186.69 133.35) (xy 210.82 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3387,7 +3523,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 129.54) (xy 91.44 129.54)
+			(xy 119.38 140.97) (xy 91.44 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3427,7 +3563,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 129.54) (xy 91.44 69.85)
+			(xy 91.44 140.97) (xy 91.44 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3487,26 +3623,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 113.03) (xy 152.4 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90edfa09-02d8-439c-bb64-b2d2fda661a5")
-	)
-	(wire
-		(pts
-			(xy 139.7 120.65) (xy 139.7 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92445416-0edf-457a-827f-11b7607d3e81")
-	)
-	(wire
-		(pts
 			(xy 111.76 82.55) (xy 111.76 113.03)
 		)
 		(stroke
@@ -3527,7 +3643,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 69.85) (xy 116.84 69.85)
+			(xy 91.44 81.28) (xy 92.71 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3537,7 +3653,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 121.92) (xy 119.38 121.92)
+			(xy 102.87 133.35) (xy 119.38 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3574,6 +3690,16 @@
 			(type default)
 		)
 		(uuid "a42cc898-e94c-4860-be79-b3f3e5801286")
+	)
+	(wire
+		(pts
+			(xy 139.7 113.03) (xy 139.7 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab4cc575-17b7-4bac-823c-360cb2450b1c")
 	)
 	(wire
 		(pts
@@ -3667,7 +3793,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 121.92) (xy 139.7 121.92)
+			(xy 119.38 133.35) (xy 139.7 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3697,6 +3823,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 101.6) (xy 102.87 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1f082e7-252a-4b0c-8d8f-97c132745abc")
+	)
+	(wire
+		(pts
 			(xy 203.2 74.93) (xy 203.2 77.47)
 		)
 		(stroke
@@ -3704,16 +3840,6 @@
 			(type default)
 		)
 		(uuid "f9cc1383-b9f2-4d90-8ba7-364ec05a807f")
-	)
-	(wire
-		(pts
-			(xy 102.87 101.6) (xy 102.87 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe330be4-ea83-4d18-aa72-35c14a2f494e")
 	)
 	(global_label "I{slash}O"
 		(shape input)
@@ -3994,7 +4120,7 @@
 	)
 	(symbol
 		(lib_id "LB3218T102K:LB3218T102K")
-		(at 166.37 121.92 0)
+		(at 166.37 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4004,7 +4130,7 @@
 		(dnp no)
 		(uuid "1b2d61d4-1262-4b9e-b932-612c41a3106e")
 		(property "Reference" "L2"
-			(at 176.022 123.952 0)
+			(at 176.022 135.382 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4014,7 +4140,7 @@
 			)
 		)
 		(property "Value" "LB3218T102K"
-			(at 176.022 126.492 0)
+			(at 176.022 137.922 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4024,7 +4150,7 @@
 			)
 		)
 		(property "Footprint" "INDC3218X200N"
-			(at 182.88 218.11 0)
+			(at 182.88 229.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4036,7 +4162,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/LB3218T102K.pdf"
-			(at 182.88 318.11 0)
+			(at 182.88 329.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4048,7 +4174,7 @@
 			)
 		)
 		(property "Description" "Fixed Inductors 1207 1000uH 35.1Ohms +/-10%Tol 39mA"
-			(at 166.37 121.92 0)
+			(at 166.37 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4059,7 +4185,7 @@
 			)
 		)
 		(property "Height" "2"
-			(at 182.88 518.11 0)
+			(at 182.88 529.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4071,7 +4197,7 @@
 			)
 		)
 		(property "Mouser Part Number" "963-LB3218T102K"
-			(at 182.88 618.11 0)
+			(at 182.88 629.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4083,7 +4209,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TAIYO-YUDEN/LB3218T102K?qs=I6KAKw0tg2xz0leHHx%252BE%252BA%3D%3D"
-			(at 182.88 718.11 0)
+			(at 182.88 729.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4095,7 +4221,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "TAIYO YUDEN"
-			(at 182.88 818.11 0)
+			(at 182.88 829.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4107,7 +4233,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LB3218T102K"
-			(at 182.88 918.11 0)
+			(at 182.88 929.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4128,85 +4254,6 @@
 			(project "PCB design"
 				(path "/1ee13f0d-22f2-4352-9e68-759581f4b836"
 					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 139.7 116.84 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "29a0a15d-3ec5-46e6-81d1-b57873558b41")
-		(property "Reference" "D2"
-			(at 139.446 124.206 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "40V/5A SK54BL"
-			(at 139.7 126.238 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 139.7 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 139.7 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "21c33dc2-a7d1-4756-9a2c-35f93dbc9879")
-		)
-		(pin "2"
-			(uuid "4842e668-e453-4e1d-b781-fb85803a82b5")
-		)
-		(instances
-			(project "PCB design"
-				(path "/1ee13f0d-22f2-4352-9e68-759581f4b836"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -4429,6 +4476,150 @@
 			(project "PCB design"
 				(path "/1ee13f0d-22f2-4352-9e68-759581f4b836"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK54BLF_R1_00001:SK54BLF_R1_00001")
+		(at 139.7 133.35 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4bb08a6d-e24a-4931-8167-b50da15b9196")
+		(property "Reference" "D3"
+			(at 143.51 121.9199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SK54BLF_R1_00001"
+			(at 143.51 124.4599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SODFL5336X110N"
+			(at 233.35 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/SK54BLF.pdf"
+			(at 333.35 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Schottky Diodes & Rectifiers 40V SchottkyF 5A"
+			(at 139.7 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.1"
+			(at 533.35 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "241-SK54BLF_R1_00001"
+			(at 633.35 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panjit/SK54BLF_R1_00001?qs=sPbYRqrBIVk6ny5Uu6rUPg%3D%3D"
+			(at 733.35 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "PANJIT"
+			(at 833.35 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SK54BLF_R1_00001"
+			(at 933.35 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "22eb022e-7b89-4769-b043-47d3fd84a030")
+		)
+		(pin "1"
+			(uuid "4408ce7b-b86b-428f-b32b-0552e6c5f4a7")
+		)
+		(instances
+			(project "PCB design"
+				(path "/1ee13f0d-22f2-4352-9e68-759581f4b836"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -6214,7 +6405,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 119.38 125.73 0)
+		(at 119.38 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6225,7 +6416,7 @@
 		(fields_autoplaced yes)
 		(uuid "f26e1954-acff-468c-8820-cdf89f4799a6")
 		(property "Reference" "C3"
-			(at 123.19 124.4599 0)
+			(at 123.19 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6236,7 +6427,7 @@
 			)
 		)
 		(property "Value" "22nF"
-			(at 123.19 126.9999 0)
+			(at 123.19 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6247,7 +6438,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.3452 129.54 0)
+			(at 120.3452 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6258,7 +6449,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 125.73 0)
+			(at 119.38 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6269,7 +6460,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 119.38 125.73 0)
+			(at 119.38 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
