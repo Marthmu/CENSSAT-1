@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LB3218T102K
+D Fixed Inductors 1207 1000uH 35.1Ohms +/-10%Tol 39mA
+K
+F https://componentsearchengine.com/Datasheets/1/LB3218T102K.pdf
+$ENDCMP
+#
+#End Doc Library

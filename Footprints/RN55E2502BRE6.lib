@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model RN55E2502BRE6
+#/22155410/1601552/2.50/2/3/Resistor
+DEF RN55E2502BRE6 R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "RN55E2502BRE6" 550 150 50 H V L CNN
+F2 "RESAD1526W69L610D229" 550 50 50 H I L CNN
+F3 "https://www.vishay.com/docs/31027/cmfmil.pdf" 550 -50 50 H I L CNN
+F4 "25 kOhms +/-0.1% 0.125W, 1/8W Through Hole Resistor Axial Flame Retardant Coating, Military, Moisture Resistant, Safety Metal Film" 550 -150 50 H I L CNN "Description"
+F5 "" 550 -250 50 H I L CNN "Height"
+F6 "" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Vishay" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "RN55E2502BRE6" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#End Library

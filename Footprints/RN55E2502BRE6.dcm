@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RN55E2502BRE6
+D 25 kOhms +/-0.1% 0.125W, 1/8W Through Hole Resistor Axial Flame Retardant Coating, Military, Moisture Resistant, Safety Metal Film
+K
+F https://www.vishay.com/docs/31027/cmfmil.pdf
+$ENDCMP
+#
+#End Doc Library
