@@ -1671,183 +1671,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "RN55E2502BRE6:RN55E2502BRE6"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 13.97 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "RN55E2502BRE6"
-				(at 13.97 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "RESAD1526W69L610D229"
-				(at 13.97 -96.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/31027/cmfmil.pdf"
-				(at 13.97 -196.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "25 kOhms +/-0.1% 0.125W, 1/8W Through Hole Resistor Axial Flame Retardant Coating, Military, Moisture Resistant, Safety Metal Film"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" ""
-				(at 13.97 -396.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" ""
-				(at 13.97 -496.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 13.97 -596.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "Vishay"
-				(at 13.97 -696.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "RN55E2502BRE6"
-				(at 13.97 -796.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "RN55E2502BRE6_1_1"
-				(rectangle
-					(start 5.08 1.27)
-					(end 12.7 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SFM-105-02-L-D-A-K-TR:SFM-105-02-L-D-A-K-TR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3080,6 +2903,12 @@
 		(uuid "2ff8fad3-f811-4dcc-a74c-99bc61fab0b9")
 	)
 	(junction
+		(at 195.58 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51972f01-a63b-4192-b2b7-98ff7fda88e5")
+	)
+	(junction
 		(at 152.4 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3096,12 +2925,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e5a3b6b-68f4-4cc1-b946-bfa2a7168850")
-	)
-	(junction
-		(at 119.38 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "822f2c0f-e1f9-4988-915e-5bf7d1cb3cef")
 	)
 	(junction
 		(at 152.4 77.47)
@@ -3122,22 +2945,16 @@
 		(uuid "b2863abd-78ca-4e82-9114-1f055db64179")
 	)
 	(junction
-		(at 195.58 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b75d625e-cefb-48e6-be3f-0e53c5e2cc58")
-	)
-	(junction
-		(at 116.84 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be03b285-1386-4215-8cff-d53801975b23")
-	)
-	(junction
 		(at 173.99 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6426261-c39d-4c3e-b32e-11b7b61a6c49")
+	)
+	(junction
+		(at 119.38 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e04d425a-b739-47fc-8343-e1f87cdb37fc")
 	)
 	(junction
 		(at 203.2 77.47)
@@ -3263,7 +3080,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 74.93) (xy 102.87 74.93)
+			(xy 116.84 74.93) (xy 105.41 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3290,16 +3107,6 @@
 			(type default)
 		)
 		(uuid "2b92ef17-cac8-4875-ba5f-5b4eafcca670")
-	)
-	(wire
-		(pts
-			(xy 99.06 72.39) (xy 102.87 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e64a9b6-5c9c-4267-aee2-a5de135a8656")
 	)
 	(wire
 		(pts
@@ -3333,6 +3140,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 96.52) (xy 195.58 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ca1298f-07dd-4968-b583-27ed042309d2")
+	)
+	(wire
+		(pts
 			(xy 210.82 133.35) (xy 210.82 77.47)
 		)
 		(stroke
@@ -3363,6 +3180,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 72.39) (xy 99.06 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4458f236-aab6-4091-8fcc-b3e8d894a1d2")
+	)
+	(wire
+		(pts
 			(xy 27.94 95.25) (xy 29.21 95.25)
 		)
 		(stroke
@@ -3383,7 +3210,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 74.93) (xy 102.87 88.9)
+			(xy 105.41 74.93) (xy 105.41 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3543,16 +3370,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 72.39) (xy 116.84 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f3f95bd-56fd-4d50-96bf-64989b6a769b")
-	)
-	(wire
-		(pts
 			(xy 180.34 101.6) (xy 180.34 104.14)
 		)
 		(stroke
@@ -3613,7 +3430,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 82.55) (xy 111.76 113.03)
+			(xy 111.76 82.55) (xy 111.76 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3633,7 +3450,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 133.35) (xy 119.38 133.35)
+			(xy 105.41 133.35) (xy 119.38 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3683,13 +3500,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 72.39) (xy 118.11 72.39)
+			(xy 111.76 100.33) (xy 111.76 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0631103-876f-4e9c-bea8-a44acd5a8ca2")
+		(uuid "b74a1785-2bd6-42cf-8b33-1a27a62e2c04")
 	)
 	(wire
 		(pts
@@ -3743,23 +3560,13 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 69.85) (xy 195.58 85.09)
+			(xy 195.58 69.85) (xy 195.58 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d6eca65c-ea3a-4510-b1fc-a28c5d071822")
-	)
-	(wire
-		(pts
-			(xy 195.58 102.87) (xy 195.58 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dae2c694-821b-40d9-bd86-84297faed0fd")
 	)
 	(wire
 		(pts
@@ -3803,13 +3610,13 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 101.6) (xy 102.87 133.35)
+			(xy 109.22 72.39) (xy 116.84 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f1f082e7-252a-4b0c-8d8f-97c132745abc")
+		(uuid "f3e5a9ba-2f3f-4a1a-a96f-999fbed17bd2")
 	)
 	(wire
 		(pts
@@ -3820,6 +3627,30 @@
 			(type default)
 		)
 		(uuid "f9cc1383-b9f2-4d90-8ba7-364ec05a807f")
+	)
+	(global_label "PDU"
+		(shape input)
+		(at 99.06 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0224dd5b-d5e7-46a1-b5d5-253c4e3bf721")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.2043 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(global_label "I{slash}O"
 		(shape input)
@@ -3917,30 +3748,6 @@
 			)
 		)
 	)
-	(global_label "PDU"
-		(shape input)
-		(at 99.06 72.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dfd24390-4f47-4735-956a-a32df58ccc54")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.2043 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(symbol
 		(lib_id "Device:R")
 		(at 189.23 76.2 90)
@@ -3952,7 +3759,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "02b88b21-a268-48af-9f5f-3f465efd6d30")
-		(property "Reference" "150k1"
+		(property "Reference" "150kΩ"
 			(at 189.738 80.264 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3972,7 +3779,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 189.23 77.978 90)
 			(hide yes)
 			(show_name no)
@@ -4014,7 +3821,7 @@
 		(instances
 			(project "PCB design"
 				(path "/1ee13f0d-22f2-4352-9e68-759581f4b836"
-					(reference "150k1")
+					(reference "150kΩ")
 					(unit 1)
 				)
 			)
@@ -4240,8 +4047,8 @@
 		)
 	)
 	(symbol
-		(lib_id "RN55E2502BRE6:RN55E2502BRE6")
-		(at 195.58 102.87 90)
+		(lib_id "MKP1839110631:MKP1839110631")
+		(at 111.76 100.33 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4249,10 +4056,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "307609dc-5c63-441c-8015-dbd5fdf39504")
-		(property "Reference" "R1(ISET)1"
-			(at 198.12 92.7099 90)
+		(uuid "3843249e-4868-442c-abf1-5684bcc1e003")
+		(property "Reference" "C1"
+			(at 106.934 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4262,8 +4068,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "25kΩ"
-			(at 198.12 95.2499 90)
+		(property "Value" "22µF"
+			(at 106.68 96.266 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4273,8 +4079,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
-			(at 291.77 88.9 0)
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder"
+			(at 207.95 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4285,8 +4091,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/31027/cmfmil.pdf"
-			(at 391.77 88.9 0)
+		(property "Datasheet" "https://ms.componentsearchengine.com/Datasheets/2/MKP1839110631.pdf"
+			(at 307.95 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4297,8 +4103,8 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "25 kOhms +/-0.1% 0.125W, 1/8W Through Hole Resistor Axial Flame Retardant Coating, Military, Moisture Resistant, Safety Metal Film"
-			(at 195.58 102.87 0)
+		(property "Description" "VISHAY - MKP1839110631 - DC Film Capacitor, 100 pF, 630 V, Metallized PP, +/- 1%, MKP1839 Series"
+			(at 111.76 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4309,7 +4115,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 591.77 88.9 0)
+			(at 507.95 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4320,8 +4126,8 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 691.77 88.9 0)
+		(property "Mouser Part Number" "75-MKP1839110631"
+			(at 607.95 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4332,8 +4138,8 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" ""
-			(at 791.77 88.9 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Roederstein/MKP1839110631?qs=NR0iQbahtIOvZN1fpNg4WA%3D%3D"
+			(at 707.95 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4345,7 +4151,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 891.77 88.9 0)
+			(at 807.95 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4356,8 +4162,8 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RN55E2502BRE6"
-			(at 991.77 88.9 0)
+		(property "Manufacturer_Part_Number" "MKP1839110631"
+			(at 907.95 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4367,17 +4173,118 @@
 				)
 				(justify left top)
 			)
-		)
-		(pin "2"
-			(uuid "43225a0c-b02c-4d38-ac27-3ed8422170a9")
 		)
 		(pin "1"
-			(uuid "c4b33058-a555-423d-a964-128a7703e164")
+			(uuid "5656edfa-e09c-4c28-89ef-51647aec15e7")
+		)
+		(pin "2"
+			(uuid "3bd8c600-19f1-41d0-9d6d-9570e03ca8e1")
 		)
 		(instances
 			(project "PCB design"
 				(path "/1ee13f0d-22f2-4352-9e68-759581f4b836"
-					(reference "R1(ISET)1")
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 105.41 72.39 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "462d7a70-b6fb-4560-8673-097d273ee72e")
+		(property "Reference" "D1"
+			(at 103.124 75.184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.7V"
+			(at 102.87 76.962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder"
+			(at 105.41 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 105.41 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 105.41 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 105.41 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b48ce6f1-c9fc-4f6e-bbae-56accfd35e7c")
+		)
+		(pin "1"
+			(uuid "1fa07f39-6faa-4c88-9e39-d9c2bd04b23a")
+		)
+		(instances
+			(project "PCB design"
+				(path "/1ee13f0d-22f2-4352-9e68-759581f4b836"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -4484,7 +4391,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SK54BLF_R1_00001"
+		(property "Value" "40V/5A"
 			(at 143.51 124.4599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4606,149 +4513,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MKP1839110631:MKP1839110631")
-		(at 102.87 101.6 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "52e6aa92-1d62-41bb-bd09-9d46fa46c63b")
-		(property "Reference" "C1"
-			(at 96.774 93.98 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22nF"
-			(at 95.25 95.758 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
-			(at 199.06 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://ms.componentsearchengine.com/Datasheets/2/MKP1839110631.pdf"
-			(at 299.06 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "VISHAY - MKP1839110631 - DC Film Capacitor, 100 pF, 630 V, Metallized PP, +/- 1%, MKP1839 Series"
-			(at 102.87 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 499.06 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "75-MKP1839110631"
-			(at 599.06 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Roederstein/MKP1839110631?qs=NR0iQbahtIOvZN1fpNg4WA%3D%3D"
-			(at 699.06 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 799.06 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MKP1839110631"
-			(at 899.06 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "f231afee-b5be-4231-8c9d-9518e08e0ea9")
-		)
-		(pin "2"
-			(uuid "2ce61ab2-71a3-42c8-b2ac-79a21b1df12b")
-		)
-		(instances
-			(project "PCB design"
-				(path "/1ee13f0d-22f2-4352-9e68-759581f4b836"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 185.42 90.17 180)
 		(unit 1)
@@ -4779,7 +4543,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 187.198 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -4838,8 +4602,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c1898c8-1ec7-4114-939f-e9dea22b5cb1")
-		(property "Reference" "R1A1"
-			(at 161.798 101.346 0)
+		(property "Reference" "R2C"
+			(at 161.036 101.346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4850,7 +4614,7 @@
 			)
 		)
 		(property "Value" "68kΩ"
-			(at 161.798 99.568 0)
+			(at 161.036 99.568 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4860,7 +4624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 164.338 104.14 90)
 			(hide yes)
 			(show_name no)
@@ -4902,7 +4666,88 @@
 		(instances
 			(project "PCB design"
 				(path "/1ee13f0d-22f2-4352-9e68-759581f4b836"
-					(reference "R1A1")
+					(reference "R2C")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 195.58 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "64a6a294-64d8-4d43-9075-e5796d8e3874")
+		(property "Reference" "R1"
+			(at 197.612 91.694 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "25kΩ"
+			(at 197.612 94.488 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 193.802 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 195.58 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "66f0c38b-c50a-47b9-8bb8-ceb066dd7a78")
+		)
+		(pin "1"
+			(uuid "8a4d10e0-bc19-4bd5-8997-b56e3e01ade7")
+		)
+		(instances
+			(project "PCB design"
+				(path "/1ee13f0d-22f2-4352-9e68-759581f4b836"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -4940,7 +4785,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:RESAD1526W69L610D229"
+		(property "Footprint" "Footprints:SFM-105-YY-XXX-D-A-K-TR"
 			(at 266.7 186.36 0)
 			(hide yes)
 			(show_name no)
@@ -5162,7 +5007,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71adfbaa-6a8a-4f68-8a6c-f99436f36850")
-		(property "Reference" "R1C1"
+		(property "Reference" "R2A"
 			(at 161.29 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5184,7 +5029,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 164.338 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -5226,7 +5071,7 @@
 		(instances
 			(project "PCB design"
 				(path "/1ee13f0d-22f2-4352-9e68-759581f4b836"
-					(reference "R1C1")
+					(reference "R2A")
 					(unit 1)
 				)
 			)
@@ -5243,8 +5088,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71f6cdb4-6faf-4613-90a7-5fa2c3e7f586")
-		(property "Reference" "R1B1"
-			(at 161.798 91.186 0)
+		(property "Reference" "R2B"
+			(at 160.528 91.186 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5255,7 +5100,7 @@
 			)
 		)
 		(property "Value" "68kΩ"
-			(at 161.798 89.154 0)
+			(at 160.782 89.154 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5265,7 +5110,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 164.338 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -5307,7 +5152,7 @@
 		(instances
 			(project "PCB design"
 				(path "/1ee13f0d-22f2-4352-9e68-759581f4b836"
-					(reference "R1B1")
+					(reference "R2B")
 					(unit 1)
 				)
 			)
@@ -5346,7 +5191,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 178.562 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -5389,108 +5234,6 @@
 			(project "PCB design"
 				(path "/1ee13f0d-22f2-4352-9e68-759581f4b836"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 106.68 72.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8cb357b0-297e-4c54-aa68-a511d7dcb3e8")
-		(property "Reference" "D1"
-			(at 106.68 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.7V"
-			(at 106.68 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder"
-			(at 106.68 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 106.68 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 106.68 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 106.68 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a88df836-8aa5-477b-8769-ccd6d728f631")
-		)
-		(pin "1"
-			(uuid "547ed536-c0ba-47db-8080-a1f150504291")
-		)
-		(instances
-			(project "PCB design"
-				(path "/1ee13f0d-22f2-4352-9e68-759581f4b836"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -6131,7 +5874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2abca7d-5ea0-41ce-adc7-85151408034a")
-		(property "Reference" "Switching_Regulator1"
+		(property "Reference" "SW1"
 			(at 134.62 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6300,7 +6043,7 @@
 		(instances
 			(project "PCB design"
 				(path "/1ee13f0d-22f2-4352-9e68-759581f4b836"
-					(reference "Switching_Regulator1")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -6498,7 +6241,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 276.53 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -6620,7 +6363,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fdede97d-89bb-4814-b1e3-fd911138451d")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 150.114 86.614 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6640,7 +6383,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 150.622 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -6682,7 +6425,7 @@
 		(instances
 			(project "PCB design"
 				(path "/1ee13f0d-22f2-4352-9e68-759581f4b836"
-					(reference "R2")
+					(reference "R4")
 					(unit 1)
 				)
 			)
