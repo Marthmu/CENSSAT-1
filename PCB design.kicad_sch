@@ -3393,7 +3393,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 81.28) (xy 92.71 69.85)
+			(xy 91.44 69.85) (xy 91.44 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3433,7 +3433,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 69.85) (xy 116.84 69.85)
+			(xy 91.44 69.85) (xy 116.84 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3563,16 +3563,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 140.97) (xy 91.44 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "702d58d7-e6b0-4fd7-970a-92f616bf4e40")
-	)
-	(wire
-		(pts
 			(xy 152.4 69.85) (xy 195.58 69.85)
 		)
 		(stroke
@@ -3640,16 +3630,6 @@
 			(type default)
 		)
 		(uuid "97c07e19-ded9-4f44-930a-470404127a7a")
-	)
-	(wire
-		(pts
-			(xy 91.44 81.28) (xy 92.71 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c3cc269-c4a3-4ce8-b7b8-0346ee054599")
 	)
 	(wire
 		(pts
@@ -3972,7 +3952,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "02b88b21-a268-48af-9f5f-3f465efd6d30")
-		(property "Reference" "150kΩ"
+		(property "Reference" "150k1"
 			(at 189.738 80.264 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3992,7 +3972,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 189.23 77.978 90)
 			(hide yes)
 			(show_name no)
@@ -4034,7 +4014,7 @@
 		(instances
 			(project "PCB design"
 				(path "/1ee13f0d-22f2-4352-9e68-759581f4b836"
-					(reference "150kΩ")
+					(reference "150k1")
 					(unit 1)
 				)
 			)
@@ -4149,7 +4129,7 @@
 				)
 			)
 		)
-		(property "Footprint" "INDC3218X200N"
+		(property "Footprint" "Inductor_SMD:L_10.4x10.4_H4.8"
 			(at 182.88 229.54 0)
 			(hide yes)
 			(show_name no)
@@ -4271,7 +4251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "307609dc-5c63-441c-8015-dbd5fdf39504")
-		(property "Reference" "R1(ISET)"
+		(property "Reference" "R1(ISET)1"
 			(at 198.12 92.7099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4293,7 +4273,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RESAD1526W69L610D229"
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 291.77 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4397,7 +4377,7 @@
 		(instances
 			(project "PCB design"
 				(path "/1ee13f0d-22f2-4352-9e68-759581f4b836"
-					(reference "R1(ISET)")
+					(reference "R1(ISET)1")
 					(unit 1)
 				)
 			)
@@ -4515,7 +4495,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SODFL5336X110N"
+		(property "Footprint" "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder"
 			(at 233.35 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -4658,7 +4638,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CAPPA3500W66L1100D600"
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 199.06 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -4799,7 +4779,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 187.198 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -4858,7 +4838,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c1898c8-1ec7-4114-939f-e9dea22b5cb1")
-		(property "Reference" "R1A"
+		(property "Reference" "R1A1"
 			(at 161.798 101.346 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4880,7 +4860,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 164.338 104.14 90)
 			(hide yes)
 			(show_name no)
@@ -4922,7 +4902,7 @@
 		(instances
 			(project "PCB design"
 				(path "/1ee13f0d-22f2-4352-9e68-759581f4b836"
-					(reference "R1A")
+					(reference "R1A1")
 					(unit 1)
 				)
 			)
@@ -4940,7 +4920,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bd4a6a6-ef59-41fc-bb76-e612e8250b04")
-		(property "Reference" "Female_Connector"
+		(property "Reference" "Female_Connector1"
 			(at 259.08 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4960,7 +4940,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SFM-105-YY-XXX-D-A-K-TR"
+		(property "Footprint" "Footprints:RESAD1526W69L610D229"
 			(at 266.7 186.36 0)
 			(hide yes)
 			(show_name no)
@@ -5088,7 +5068,7 @@
 		(instances
 			(project "PCB design"
 				(path "/1ee13f0d-22f2-4352-9e68-759581f4b836"
-					(reference "Female_Connector")
+					(reference "Female_Connector1")
 					(unit 1)
 				)
 			)
@@ -5182,7 +5162,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71adfbaa-6a8a-4f68-8a6c-f99436f36850")
-		(property "Reference" "R1C"
+		(property "Reference" "R1C1"
 			(at 161.29 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5204,7 +5184,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 164.338 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -5246,7 +5226,7 @@
 		(instances
 			(project "PCB design"
 				(path "/1ee13f0d-22f2-4352-9e68-759581f4b836"
-					(reference "R1C")
+					(reference "R1C1")
 					(unit 1)
 				)
 			)
@@ -5263,7 +5243,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71f6cdb4-6faf-4613-90a7-5fa2c3e7f586")
-		(property "Reference" "R1B"
+		(property "Reference" "R1B1"
 			(at 161.798 91.186 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5285,7 +5265,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 164.338 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -5327,7 +5307,7 @@
 		(instances
 			(project "PCB design"
 				(path "/1ee13f0d-22f2-4352-9e68-759581f4b836"
-					(reference "R1B")
+					(reference "R1B1")
 					(unit 1)
 				)
 			)
@@ -5366,7 +5346,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 178.562 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -5446,7 +5426,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder"
 			(at 106.68 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5549,7 +5529,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1808_4520Metric_Pad1.72x2.30mm_HandSolder"
 			(at 204.1652 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -5609,7 +5589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3eae5b8-dd6d-4bad-9eb4-f8cebcec8bf5")
-		(property "Reference" "Male_Connector"
+		(property "Reference" "Male_Connector1"
 			(at 40.64 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5629,7 +5609,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TFM-105-02-XXX-D-WT"
+		(property "Footprint" "Footprints:TFM-105-02-XXX-D-WT"
 			(at 48.26 187.63 0)
 			(hide yes)
 			(show_name no)
@@ -5757,7 +5737,7 @@
 		(instances
 			(project "PCB design"
 				(path "/1ee13f0d-22f2-4352-9e68-759581f4b836"
-					(reference "Male_Connector")
+					(reference "Male_Connector1")
 					(unit 1)
 				)
 			)
@@ -5874,7 +5854,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CAPPA3100W60L1100D500"
+		(property "Footprint" "Capacitor_SMD:C_1808_4520Metric_Pad1.72x2.30mm_HandSolder"
 			(at 270.18 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -6151,7 +6131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2abca7d-5ea0-41ce-adc7-85151408034a")
-		(property "Reference" "Switching_Regulator"
+		(property "Reference" "Switching_Regulator1"
 			(at 134.62 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6171,7 +6151,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X170-9N"
+		(property "Footprint" "Footprints:SOIC127P600X170-9N"
 			(at 148.59 164.77 0)
 			(hide yes)
 			(show_name no)
@@ -6320,7 +6300,7 @@
 		(instances
 			(project "PCB design"
 				(path "/1ee13f0d-22f2-4352-9e68-759581f4b836"
-					(reference "Switching_Regulator")
+					(reference "Switching_Regulator1")
 					(unit 1)
 				)
 			)
@@ -6437,7 +6417,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 120.3452 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -6518,7 +6498,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "D103K69Y5PL63L0R"
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 276.53 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -6660,7 +6640,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 150.622 90.17 90)
 			(hide yes)
 			(show_name no)
