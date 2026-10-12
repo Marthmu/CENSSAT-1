@@ -3759,7 +3759,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "02b88b21-a268-48af-9f5f-3f465efd6d30")
-		(property "Reference" "150kΩ"
+		(property "Reference" "R5"
 			(at 189.738 80.264 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3769,8 +3769,8 @@
 				)
 			)
 		)
-		(property "Value" "R5"
-			(at 188.214 78.486 90)
+		(property "Value" "150kΩ"
+			(at 189.484 78.486 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3821,7 +3821,7 @@
 		(instances
 			(project "PCB design"
 				(path "/1ee13f0d-22f2-4352-9e68-759581f4b836"
-					(reference "150kΩ")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4200,7 +4200,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "462d7a70-b6fb-4560-8673-097d273ee72e")
-		(property "Reference" "D1"
+		(property "Reference" "D0"
 			(at 103.124 75.184 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4284,7 +4284,7 @@
 		(instances
 			(project "PCB design"
 				(path "/1ee13f0d-22f2-4352-9e68-759581f4b836"
-					(reference "D1")
+					(reference "D0")
 					(unit 1)
 				)
 			)
@@ -4380,7 +4380,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bb08a6d-e24a-4931-8167-b50da15b9196")
-		(property "Reference" "D3"
+		(property "Reference" "D1"
 			(at 143.51 121.9199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4506,7 +4506,7 @@
 		(instances
 			(project "PCB design"
 				(path "/1ee13f0d-22f2-4352-9e68-759581f4b836"
-					(reference "D3")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -4602,7 +4602,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c1898c8-1ec7-4114-939f-e9dea22b5cb1")
-		(property "Reference" "R2C"
+		(property "Reference" "R2C1"
 			(at 161.036 101.346 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4666,7 +4666,7 @@
 		(instances
 			(project "PCB design"
 				(path "/1ee13f0d-22f2-4352-9e68-759581f4b836"
-					(reference "R2C")
+					(reference "R2C1")
 					(unit 1)
 				)
 			)
@@ -5007,7 +5007,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71adfbaa-6a8a-4f68-8a6c-f99436f36850")
-		(property "Reference" "R2A"
+		(property "Reference" "R2A1"
 			(at 161.29 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5071,7 +5071,7 @@
 		(instances
 			(project "PCB design"
 				(path "/1ee13f0d-22f2-4352-9e68-759581f4b836"
-					(reference "R2A")
+					(reference "R2A1")
 					(unit 1)
 				)
 			)
@@ -5088,7 +5088,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71f6cdb4-6faf-4613-90a7-5fa2c3e7f586")
-		(property "Reference" "R2B"
+		(property "Reference" "R2B1"
 			(at 160.528 91.186 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5152,7 +5152,7 @@
 		(instances
 			(project "PCB design"
 				(path "/1ee13f0d-22f2-4352-9e68-759581f4b836"
-					(reference "R2B")
+					(reference "R2B1")
 					(unit 1)
 				)
 			)
