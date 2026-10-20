@@ -3926,7 +3926,7 @@
 				)
 			)
 		)
-		(property "Value" "LB3218T102K"
+		(property "Value" "4.7µH"
 			(at 176.022 137.922 0)
 			(show_name no)
 			(do_not_autoplace no)
